@@ -18,6 +18,8 @@
 
 Все проекты, стек и контакты собраны на сайте-портфолио.
 
+[Maps](https://github.com/helltrilla/maps) · [Todo](https://github.com/helltrilla/todo)
+
 </div>
 
 &nbsp;
