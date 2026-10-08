@@ -27,11 +27,11 @@
 
 ## 🧑‍💻 О себе
 
-**Flutter-разработчик**, создающий современные кроссплатформенные мобильные приложения для **iOS и Android**. Уверенно работаю с **REST API**, сложными интерфейсами, **картами и геолокацией**. В данный момент оба моих основных пет-проекта (**Maps** и **Todo**) готовы, и я продолжаю их развивать и обновлять.
+**Flutter-разработчик**, создающий современные кроссплатформенные мобильные приложения для **iOS и Android**. Уверенно работаю с **REST API**, сложными интерфейсами, **картами и геолокацией**. В данный момент оба моих основных пет-проекта (**Maps** и **Todo**) готовы, и я продолжаю их развивать и обновлять, параллельно работая над новыми идеями.
 
 &nbsp;
 
-## 🚀 Проекты
+## 🚀 Проекты (Готовы и обновляются)
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
@@ -40,16 +40,16 @@
       <p align="center">
         <img src="https://img.shields.io/badge/Статус-Готов_%2B_Обновляется-success?style=flat-square" />
       </p>
-      <p><b>Полноценное картографическое приложение на Flutter.</b></p>
+      <p><b>Приложение карт на Flutter.</b></p>
       <ul>
         <li>📍 <b>GPS:</b> Геолокация в реальном времени</li>
         <li>🔍 <b>Поиск:</b> Нахождение мест поблизости</li>
-        <li>🛣️ <b>Маршруты:</b> Построение пути из точки А в точку Б</li>
+        <li>🛣️ <b>Маршруты:</b> Пути из точки А в точку Б</li>
         <li>🗺️ <b>Слои:</b> Пять различных слоёв карты</li>
-        <li>💾 <b>Оффлайн:</b> Кэширование тайлов карты для работы без интернета</li>
+        <li>💾 <b>Оффлайн:</b> Кэширование тайлов карты</li>
       </ul>
       <p align="center">
-        <code>Flutter</code> <code>Dart</code> <code>OpenStreetMap</code> <code>OSRM</code> <code>Geolocator</code>
+        <code>Flutter</code> <code>Riverpod</code> <code>OpenStreetMap</code> <code>OSRM</code>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -57,20 +57,51 @@
       <p align="center">
         <img src="https://img.shields.io/badge/Статус-Готов_%2B_Обновляется-success?style=flat-square" />
       </p>
-      <p><b>Удобный и быстрый менеджер задач.</b></p>
+      <p><b>Менеджер задач на Flutter.</b></p>
       <ul>
-        <li>📝 <b>Основа:</b> Полностью рабочий список задач</li>
-        <li>✨ <b>UI/UX:</b> Чистый и современный интерфейс</li>
-        <li>🔄 <b>Развитие:</b> Проект готов, но регулярно дорабатывается новым функционалом</li>
+        <li>📝 <b>Организация:</b> Категории с иконками и подзадачи</li>
+        <li>⏱️ <b>Продуктивность:</b> Pomodoro-таймер</li>
+        <li>🔐 <b>Безопасность:</b> Авторизация через Supabase OTP</li>
       </ul>
       <br>
       <br>
       <p align="center">
-        <code>Flutter</code> <code>Dart</code>
+        <code>Flutter</code> <code>Provider</code> <code>Supabase</code> <code>go_router</code>
       </p>
     </td>
   </tr>
 </table>
+
+&nbsp;
+
+## 🏗️ В разработке
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="100%" valign="top">
+      <h3>🤖 AI-Ассистент</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Статус-В_разработке-orange?style=flat-square" />
+      </p>
+      <p>Чат-бот на базе API OpenAI/Gemini/Claude с генерацией картинок. Поддержка Markdown, потоковая передача данных (Stream) и скачивание файлов.</p>
+      <p>
+        <code>Flutter</code> <code>Dart</code> <code>REST API</code> <code>Streams</code> <code>Markdown</code>
+      </p>
+    </td>
+  </tr>
+</table>
+
+&nbsp;
+
+## 📝 В планах
+
+<ul>
+  <li>💰 <b>Трекер расходов:</b> Финансовый дашборд с доходами/расходами, кастомными графиками (<code>fl_chart</code>) и сканером чеков. Работа с локальной БД (<code>Isar / Hive</code>).</li>
+  <li>💬 <b>Мессенджер:</b> Чаты в реальном времени, отправка фото, статусы и пуш-уведомления (<code>Supabase / Firebase</code>, <code>WebSockets</code>).</li>
+  <li>🏠 <b>Умный дом:</b> Дашборд управления светом и температурой, анимации (<code>Lottie/Rive</code>) и кастомные элементы (<code>CustomPainter</code>).</li>
+  <li>🏃‍♂️ <b>Фитнес-приложение:</b> Workout Tracker с программами тренировок, фоновым секундомером и шагомером на базе сенсоров.</li>
+  <li>🛒 <b>E-commerce App:</b> Магазин с использованием FakeStoreAPI/DummyJSON.</li>
+</ul>
 
 &nbsp;
 
