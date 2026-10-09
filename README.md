@@ -55,18 +55,17 @@
     <td width="50%" valign="top">
       <h3 align="center">✅ <a href="https://github.com/helltrilla/todo">Todo</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Статус-Готов_%2B_Обновляется-success?style=flat-square" />
+        <img src="https://img.shields.io/badge/Статус-v2.0.1_%2B_Обновляется-success?style=flat-square" />
       </p>
-      <p><b>Менеджер задач на Flutter.</b></p>
+      <p><b>Executive-таск-менеджер на Flutter.</b></p>
       <ul>
-        <li>📝 <b>Организация:</b> Категории с иконками и подзадачи</li>
-        <li>⏱️ <b>Продуктивность:</b> Pomodoro-таймер</li>
-        <li>🔐 <b>Безопасность:</b> Авторизация через Supabase OTP</li>
+        <li>🧠 <b>AI & Аудио:</b> Daily Digest (Gemini 2.0 Flash) и DSP аудио-студия</li>
+        <li>📊 <b>Матрица:</b> Эйзенхауэра 2x2 (Drag-and-Drop)</li>
+        <li>🍎 <b>Экосистема:</b> Siri шорткаты и виджеты iOS 17</li>
+        <li>☁️ <b>Sync:</b> Offline-First с Supabase</li>
       </ul>
-      <br>
-      <br>
       <p align="center">
-        <code>Flutter</code> <code>Provider</code> <code>Supabase</code> <code>go_router</code>
+        <code>Flutter</code> <code>Clean Arch</code> <code>Gemini</code> <code>WidgetKit</code>
       </p>
     </td>
   </tr>
