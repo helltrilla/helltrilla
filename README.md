@@ -27,7 +27,7 @@
 
 ## 🧑‍💻 О себе
 
-**Flutter-разработчик**, создающий современные кроссплатформенные мобильные приложения для **iOS и Android**. Уверенно работаю с **REST API**, сложными интерфейсами, **картами и геолокацией**. В данный момент оба моих основных пет-проекта (**Maps** и **Todo**) готовы, и я продолжаю их развивать и обновлять, параллельно работая над новыми идеями.
+**Flutter-разработчик · Indie Game Dev**. Создаю современные кроссплатформенные мобильные приложения для **iOS и Android**, а также разрабатываю браузерные **3D-игры на Three.js и WebGL**. Уверенно работаю с **REST API**, сложными интерфейсами, **AI**, **картами и геолокацией**.
 
 &nbsp;
 
@@ -73,34 +73,60 @@
 
 &nbsp;
 
-## 🏗️ В разработке
+## 🎮 Игры
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
-    <td width="100%" valign="top">
-      <h3>🤖 AI-Ассистент</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Статус-В_разработке-orange?style=flat-square" />
+    <td width="50%" valign="top">
+      <h3 align="center">🪙 <a href="https://helltrilla.github.io/coins-table.html">Coins Table</a></h3>
+      <p align="center">
+        <a href="https://playgama.com/game/coins-table">
+          <img src="https://static.playgama.com/p-img/pg/preview/5f439c2d4fc74bfb83a3400ce2c70fd9?width=1200" width="100%" alt="Coins Table" />
+        </a>
       </p>
-      <p>Чат-бот на базе API OpenAI/Gemini/Claude с генерацией картинок. Поддержка Markdown, потоковая передача данных (Stream) и скачивание файлов.</p>
-      <p>
-        <code>Flutter</code> <code>Dart</code> <code>REST API</code> <code>Streams</code> <code>Markdown</code>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Статус-Релиз_★_4.1-success?style=flat-square" />
+        <a href="https://playgama.com/game/coins-table">
+          <img src="https://img.shields.io/badge/▶_Играть-Playgama-000000?style=flat-square" alt="Играть на Playgama" />
+        </a>
+      </p>
+      <p><b>Атмосферный 3D Idle-кликер на Three.js.</b></p>
+      <ul>
+        <li>🪙 <b>Коллекция:</b> Монеты 7 рангов (от бронзы до бриллианта)</li>
+        <li>🤖 <b>Автоматизация:</b> До 30 миньонов-помощников</li>
+        <li>🎩 <b>Прогрессия:</b> 4 роскошных стола с множителями дохода</li>
+        <li>🏆 <b>Челленджи:</b> 20 достижений и таблицы лидеров</li>
+      </ul>
+      <p align="center">
+        <code>Three.js</code> <code>WebGL</code> <code>JavaScript</code> <code>Playgama SDK</code> <code>3D Physics</code>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🚗 <a href="https://helltrilla.github.io/parking-simulator.html">Parking Simulator</a></h3>
+      <p align="center">
+        <a href="https://playgama.ai/play/6ogffafjtf3ih5">
+          <img src="https://static.playgama.com/p-img/pg/preview/9639a4b1df864199a9bab06056d98396_og.jpg" width="100%" alt="Parking Simulator" />
+        </a>
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Статус-Релиз_v1.0.9-success?style=flat-square" />
+        <a href="https://playgama.ai/play/6ogffafjtf3ih5">
+          <img src="https://img.shields.io/badge/▶_Играть-Playgama-000000?style=flat-square" alt="Играть на Playgama" />
+        </a>
+      </p>
+      <p><b>3D-головоломка и симулятор парковки в браузере.</b></p>
+      <ul>
+        <li>🧩 <b>Кампания:</b> 300 уровней + бесконечный режим</li>
+        <li>🚙 <b>3D-модели:</b> Кастомные .glb авто из Blender, скины машин и карт</li>
+        <li>⚡ <b>Бустеры:</b> Подсказка, Эвакуатор и Отмена хода</li>
+        <li>🚀 <b>Оптимизация:</b> Auto-Quality 60 FPS и Web Audio API</li>
+      </ul>
+      <p align="center">
+        <code>Three.js</code> <code>WebGL</code> <code>Blender (.glb)</code> <code>JavaScript</code> <code>Playgama Bridge v2</code>
       </p>
     </td>
   </tr>
 </table>
-
-&nbsp;
-
-## 📝 В планах
-
-<ul>
-  <li>💰 <b>Трекер расходов:</b> Финансовый дашборд с доходами/расходами, кастомными графиками (<code>fl_chart</code>) и сканером чеков. Работа с локальной БД (<code>Isar / Hive</code>).</li>
-  <li>💬 <b>Мессенджер:</b> Чаты в реальном времени, отправка фото, статусы и пуш-уведомления (<code>Supabase / Firebase</code>, <code>WebSockets</code>).</li>
-  <li>🏠 <b>Умный дом:</b> Дашборд управления светом и температурой, анимации (<code>Lottie/Rive</code>) и кастомные элементы (<code>CustomPainter</code>).</li>
-  <li>🏃‍♂️ <b>Фитнес-приложение:</b> Workout Tracker с программами тренировок, фоновым секундомером и шагомером на базе сенсоров.</li>
-  <li>🛒 <b>E-commerce App:</b> Магазин с использованием FakeStoreAPI/DummyJSON.</li>
-</ul>
 
 &nbsp;
 
@@ -109,6 +135,10 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" />
   <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white" />
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
